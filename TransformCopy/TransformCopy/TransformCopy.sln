@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformCopy", "Assembly-CSharp.csproj", "{119B6404-8BA4-3BDA-73EF-209328490DA5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformCopy", "Assembly-CSharp-Editor.csproj", "{77754420-84D4-109E-32F3-DAC154B970CA}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119B6404-8BA4-3BDA-73EF-209328490DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119B6404-8BA4-3BDA-73EF-209328490DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119B6404-8BA4-3BDA-73EF-209328490DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119B6404-8BA4-3BDA-73EF-209328490DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{77754420-84D4-109E-32F3-DAC154B970CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{77754420-84D4-109E-32F3-DAC154B970CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77754420-84D4-109E-32F3-DAC154B970CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
