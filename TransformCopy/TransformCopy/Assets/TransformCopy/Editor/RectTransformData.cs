@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEditor;
 using System;
 namespace kenbu.Poinco{
-    /*
     [CustomEditor(typeof(RectTransform))]  
     public class RectTransformRuntimeApply : RuntimeApply<RectTransformData, RectTransform> {
 
@@ -14,6 +13,5 @@ namespace kenbu.Poinco{
 
 
     }
-    */
 
 }
