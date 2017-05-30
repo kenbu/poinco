@@ -13,11 +13,11 @@ using UnityEngine.UI;
 namespace kenbu.Poinco{
 
 
-    public class RuntimeApplyWindow : EditorWindow
+    public class Poinco : EditorWindow
     {
-        [MenuItem ("Window/RuntimeApplyWindow")]
+        [MenuItem ("Window/Poinco")]
         public static void ShowWindow () {
-            EditorWindow.GetWindow(typeof(RuntimeApplyWindow));
+            EditorWindow.GetWindow(typeof(Poinco));
         }
 
         private void OnGUI(){
@@ -150,7 +150,7 @@ namespace kenbu.Poinco{
         protected DataType _saveData;
 
         protected  const string FILE_EXTENSION = ".asset";
-        protected  const string FOLDER_PATH = "Assets/TransformCopy/Resources/";
+        protected  const string FOLDER_PATH = "Assets/Poinco/Resources/";
         protected int _instanceId;
 
         public RuntimeApplyExec(TargetType _instance){
